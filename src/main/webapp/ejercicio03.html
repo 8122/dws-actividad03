@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ejercicio03</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#D8D8D8">
+        <form name="formulario1" action="mailto:videoclub@gmail.com">
+            <table width="900" align="center" border="0" cellspacing="2" bgcolor="#F2F5A9">
+                <thead>
+                    <tr>
+                        <th colspan="6" bgcolor="#FFBF00" align="left">VIDEO-CLUB ONLINE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="2%"></td>
+                        <td width="25%" bgcolor="#688A08"><b>Nombre Película</b></td>
+                        <td width="25%"><input type="text" name="nombre" value="" size="16" /></td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td bgcolor="#688A08"><b>Número Días Alquiler</b></td>
+                        <td><input type="text" name="dias" value="1" size="16"/></td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td bgcolor="#688A08"><b>Edad Cliente</b></td>
+                        <td width="19%" bgcolor="#688A08"><b>Forma de Pago</b></td>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>
+                            <input type="radio" name="edad" value="menor7" />Menor de 7 años<br>
+                            <input type="radio" name="edad" value="menor14" />Menor de 14 años<br>
+                            <input type="radio" name="edad" value="menor18" />Menor de 18 años<br>
+                            <input type="radio" name="edad" value="mayor18" />Mayor de 18 años
+                        </td>
+                        <td><select name="formaPago">
+                                <option>VISA</option>
+                                <option>Cheque</option>
+                                <option>Contado</option>
+                                <option>Metálico</option>
+                            </select></td>
+                            <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td width="44%"colspan="2" bgcolor="#688A08"><b>Especificaciones Extra</b></td>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td witdh="74%" colspan="3">
+                            <textarea name="especificaciones" rows="6" cols="74"></textarea>
+                        </td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="4" align="center">
+                            <input type="submit" value="Enviar Pedido" name="enviar" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="reset" value="Borrar Formulario" name="borrar" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
